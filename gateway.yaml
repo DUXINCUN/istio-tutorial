@@ -4,7 +4,7 @@ metadata:
   name: bookinfo-gateway
 spec:
   selector:
-    istio: customgateway # use customgateway controller
+    istio: customgateway # use istio customgateway controller
   servers:
   - port:
       number: 80
